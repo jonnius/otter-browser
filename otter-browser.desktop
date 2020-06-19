@@ -186,3 +186,4 @@ Name[fr]=Nouvelle fenêtre privée
 Name[pl]=Nowe okno prywatne
 Name[pt]=Nova janela privada
 Exec=otter-browser --new-private-window %u
+X-Ubuntu-Touch=true

@@ -1,0 +1,21 @@
+{
+  "builder": "cmake",
+  "dependencies_ppa": [
+    "ppa:janisozaur/cmake-update"
+  ],
+  "dependencies_host": [
+    "cmake"
+  ],
+  "dependencies_target": [
+    "libqt5webkit5-dev"
+  ],
+  "build_args": [
+    "-DENABLE_QTWEBKIT=ON"
+  ],
+  "install_data": {
+    "${ROOT}/manifest.json": "",
+    "${ROOT}/otter-browser.desktop": "",
+    "${ROOT}/otter-browser.apparmor": "",
+    "${INSTALL_DIR}/bin/*": ""
+  }
+}
